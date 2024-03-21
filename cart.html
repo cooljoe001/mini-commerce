@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="cart.css" />
+		<title>cart</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="order-summary">
+				<h2>Order Summary</h2>
+				<div id="products">
+					<div class="product">
+						<img src="images/ebay.png" alt="Product Image" />
+						<div class="product-info">
+							<h3>Product Name</h3>
+							<p>
+								Description Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit.
+							</p>
+							<p>Price :$99.99</p>
+						</div>
+					</div>
+					<div class="product">
+						<img src="https://via.placeholder.com/80" alt="Product Image" />
+						<div class="product-info">
+							<h3>Product Name 1</h3>
+							<p>
+								Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit.
+							</p>
+							<p>Price: $99.99</p>
+						</div>
+						<button class="remove-button">Remove Product</button>
+					</div>
+					<div class="product">
+						<img src="https://via.placeholder.com/80" alt="Product Image" />
+						<div class="product-info">
+							<h3>Product Name 2</h3>
+							<p>
+								Description: Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit.
+							</p>
+							<p>Price: $49.99</p>
+						</div>
+						<button class="remove-button">Remove Product</button>
+					</div>
+				</div>
+				<div class="total">
+					<p>Total: GH¢<span>00.00</span></p>
+				</div>
+			</div>
+			<div class="payment-methods">
+				<h2>Payment Methods</h2>
+				<div id="paymentForm" class="payment-details">
+					<h3>Basic details</h3>
+					<p>Please enter your mobile money details to complete the payment.</p>
+					<form id="mobile-money-form">
+						<label for="phone-number">Phone Number:</label>
+						<input type="tel" id="phone-number" name="phone-number" required />
+						<label for="pin">Email:</label>
+						<input type="email" id="email" name="email" required />
+						<input type="submit" value="Pay Now" />
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="https://js.paystack.co/v1/inline.js"></script>
+
+		<script src="payment.js"></script>
+	  
+ 
+	</body>
+</html>
