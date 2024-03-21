@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+#appbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#45315D ;
+    padding: 23px 30px;
+    position: fixed;
+    z-index: 3;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: white;
+ }
+nav ul{
+    display: flex;
+     justify-content: space-evenly;
+    color: white;
+    list-style: none;
+}
+
+nav ul li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a{
+    color :white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: monospace;
+    padding: 15px 20px;
+
+}
+
+nav ul li a:hover{
+    color:  rgb(249, 184, 99);
+    }
+    h2{
+        color: rgb(249, 169, 64);
+        font-size: 30px;
+    }
+     
+
+    .carrd{
+    padding : 1rem; 
+    width: 400px;
+    min-height: 410px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;    
+    }
+    .carrd h5{
+        margin-top: 3rem;
+    }
+  .carrd:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+    .carrd >img{
+
+        width: 230px;
+        height: 230px;
+        margin: auto;
+        display: block;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+ 
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+    .carrd > h5{
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "Black Ops One", system-ui;
+        
+    
+    }
+      .carrd>p{
+        align-items: center;
+        text-align: center;
+        font-weight: 900px;
+        font-size: 17px;
+        font-family: monospace;
+      }
+			.btn-cont{
+				width: 100%;
+				display:flex;
+			}
+      .bttn{
+        background-color:rgb(17, 175, 17);
+        border: none;
+        outline: none;
+        font-size: 16px;
+        color: white;
+        padding: 1rem 4rem;
+				width: 80%;
+				margin: auto;
+        cursor: pointer;
+        border-radius: 8px;
+
+      }
+
+    #product-cover{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+ 
+     
+  .language-selector {
+    margin-top: 10px;
+  }
+  
+  .language-selector label {
+    margin-right: 10px;
+  }
+  
+  .language-selector select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #272829;
+    color:white;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+.address{
+    margin-right: 150px;
+}
+.address>h4{
+    color: rgb(249, 184, 99); ;
+}
+
+input[type ="text"]{
+    width: 27%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 1000px;
+    font-style: normal;
+    border-radius: 3px solid #45315D;
+    
+}
+input[type ="text"]:hover{
+border-radius: 3px solid #45315D;
+}
+#cart-link {
+	position: relative;
+}
+#cart-chip {
+	width: 1.2rem;
+	height: 1.2rem;
+	display: flex;
+	font-weight: 700;
+	justify-content: center;
+	align-items: center;
+	background-color: tomato;
+	border-radius: 1rem;
+	padding: .8rem;
+	position: absolute;
+	left: 2.7rem;
+	bottom: 1rem;
+}
+
+.hd {
+	display: none;
+}
+
+#preloader {
+	max-width: 40rem;
+	height: 45rem;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	
+}
+

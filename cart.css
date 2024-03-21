@@ -1,0 +1,147 @@
+ 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+      background-color: #faf6f9;
+  
+
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-summary {
+    margin-bottom: 20px;
+  }
+  
+  .product {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .total p{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: monospace;
+  }
+  .order-summary>h2{
+    font-family: monospace;
+    font-size: 23px;
+  }
+  .product img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    flex: 1;
+  }
+  
+  .total {
+    text-align: right;
+  }
+  
+  .payment-methods {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+  .payment-details > h3{
+    font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  }
+  .payment-methods > h2{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .payment-option {
+    margin-bottom: 10px;
+  }
+  
+  .payment-option label {
+    margin-left: 5px;
+  }
+  
+  .payment-details {
+    margin-top: 10px;
+  }
+  
+  .payment-details label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .payment-details input[type="text"],
+  .payment-details input[type="password"],
+  .payment-details input[type="email"] ,
+  .payment-details input[type="tel"] 
+   {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .payment-details input[type="submit"] {
+    background-color: #23cc4b;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-details input[type="submit"]:hover {
+    background-color: #1e7030;
+  }
+
+
+    .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .product img {
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        .product-info h3 {
+            margin: 0;
+        }
+
+        .product-info p {
+            margin: 5px 0;
+            color: #777;
+        }
+
+        .remove-button {
+            background-color: #ff0000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .remove-button:hover {
+            background-color: #cc0000;
+        }

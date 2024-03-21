@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#appbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color:#45315D ;
+    padding: 20px 27px;
+    position: fixed;
+    z-index: 3;
+    
+}
+/*
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: white;
+ }
+nav ul{
+    display: flex;
+     justify-content: space-evenly;
+    color: white;
+    list-style: none;
+}
+
+nav ul li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a{
+    color :white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: monospace;
+    padding: 15px 20px;
+
+}
+nav ul li a:hover{
+background-color: 3px solid  rgb(249, 184, 99);
+}
+*/
+h2{
+    color: rgb(249, 169, 64);
+    font-size: 30px;
+}
+
+#page{
+    display: flex;
+		flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ 
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#about-section p {
+    font-size: 20px;
+    font-family: monospace;
+}
+#mission-section p {
+    font-size: 20px;
+    font-family: monospace;
+}
+#about-section span{
+    color: rgb(249, 169, 64);
+}
+#mission-section span {
+color:tomato;
+}
+  .language-selector {
+    margin-top: 10px;
+  }
+  
+  .language-selector label {
+    margin-right: 10px;
+  }
+  
+  .language-selector select {
+    padding: 5px;
+    font-size: 16px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #272829;
+    color:white;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    height: 13vh;
+    font-style: normal;
+    font-size: 17px;
+}
+.address{
+    margin-right: 150px;
+}
+.address>h4{
+    color: rgb(249, 184, 99); ;
+}
+.bb{
+    width: 20%;
+    height: 6vh;
+    color: white;
+    background-color: rgb(35, 176, 35);
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.bb:hover{
+    background-color: rgb(23, 212, 23) ;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#cart-link {
+	position: relative;
+}
+#cart-chip {
+	width: 1.2rem;
+	height: 1.2rem;
+	display: flex;
+	font-weight: 700;
+	justify-content: center;
+	align-items: center;
+	background-color: tomato;
+	border-radius: 1rem;
+	padding: .8rem;
+	position: absolute;
+	left: 2.7rem;
+	bottom: 1rem;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+   
